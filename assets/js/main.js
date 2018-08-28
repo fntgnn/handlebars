@@ -10,5 +10,5 @@ $(function(){   //doc ready
 
     var template= $('#template-container').html();
     var compiledTemplate = Handlebars.compile(template);
-    $('#list-container').html(compiledTemplate(cast.characters));
+    $('#list-container').html(compiledTemplate(cast));
 });
