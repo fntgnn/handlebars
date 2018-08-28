@@ -1,0 +1,7 @@
+{
+    "characters": [
+        {"name":"Pippo", "surname": "Palombo", "house": {"address": "via 123", "city": "Bologna"}}, 
+        {"name":"Pluto", "surname": "Bianchi", "house": {"address": "via 321", "city": "Verona"}}, 
+        {"name":"Paperino", "surname": "Luchino", "house": {"address": "via 456", "city": "Goro"}} 
+    ]
+}

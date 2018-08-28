@@ -12,7 +12,10 @@
     
     <script id="template-container" type="text/x-handlebars-template">
         {{#each characters}}
-        <li>{{name}}, {{surname}}</li>    
+        <li>{{name}}, {{surname}}: 
+            {{#with house}}
+            {{address}} {{city}}</li>    
+            {{/with}}
         {{/each}}
     </script>   
 
